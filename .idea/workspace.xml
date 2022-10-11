@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cdb1f25-df69-446b-a5a3-d5efca0903d5" name="Changes" comment="Added strings.txt test data&#10;Added solution to Main.java:&#10;Reading text file lines one by one&#10;Each line gets converted to char array &#10;Then numbers get extacted from char array&#10;Looping through list of numbers in string line and if criteria is met line gets printed">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    <list default="true" id="7cdb1f25-df69-446b-a5a3-d5efca0903d5" name="Changes" comment="Added Junit testing framework to the project&#10;Created some tests for extractNumbersFromString method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sourcery_task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sourcery_task.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,46 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="JUnit.MainTest$printLineWhenContainsLargerNumberTests.printsOutWithLargerNumber">
+    <configuration name="MainTest$printLineWhenContainsLargerNumberTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sourcery_task" />
+      <option name="PACKAGE_NAME" value="MainTest" />
+      <option name="MAIN_CLASS_NAME" value="MainTest$printLineWhenContainsLargerNumberTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest$printLineWhenContainsLargerNumberTests.bbb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sourcery_task" />
+      <option name="PACKAGE_NAME" value="MainTest" />
+      <option name="MAIN_CLASS_NAME" value="MainTest$printLineWhenContainsLargerNumberTests" />
+      <option name="METHOD_NAME" value="bbb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest$printLineWhenContainsLargerNumberTests.printsOutWithEqualNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sourcery_task" />
+      <option name="PACKAGE_NAME" value="MainTest" />
+      <option name="MAIN_CLASS_NAME" value="MainTest$printLineWhenContainsLargerNumberTests" />
+      <option name="METHOD_NAME" value="printsOutWithEqualNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest$printLineWhenContainsLargerNumberTests.printsOutWithLargerNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sourcery_task" />
+      <option name="PACKAGE_NAME" value="MainTest" />
+      <option name="MAIN_CLASS_NAME" value="MainTest$printLineWhenContainsLargerNumberTests" />
+      <option name="METHOD_NAME" value="printsOutWithLargerNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sourcery_task" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,31 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.extractNumbersFromCharArrayContainingDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sourcery_task" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="extractNumbersFromCharArrayContainingDigit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.extractNumbersFromCharArrayContainingOnlyLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sourcery_task" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="extractNumbersFromCharArrayContainingOnlyLetters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest$printLineWhenContainsLargerNumberTests.printsOutWithLargerNumber" />
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.extractNumbersFromCharArrayContainingOnlyLetters" />
-        <item itemvalue="JUnit.MainTest.extractNumbersFromCharArrayContainingDigit" />
+        <item itemvalue="JUnit.MainTest$printLineWhenContainsLargerNumberTests" />
+        <item itemvalue="JUnit.MainTest$printLineWhenContainsLargerNumberTests.printsOutWithEqualNumber" />
+        <item itemvalue="JUnit.MainTest$printLineWhenContainsLargerNumberTests.bbb" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +124,21 @@
       <option name="presentableId" value="Default" />
       <updated>1664340534587</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactored Main to make it more readable">
+      <created>1665476124014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665476124014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Junit testing framework to the project&#10;Created some tests for extractNumbersFromString method">
+      <created>1665476190296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665476190296</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,7 +171,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added strings.txt test data&#10;Added solution to Main.java:&#10;Reading text file lines one by one&#10;Each line gets converted to char array &#10;Then numbers get extacted from char array&#10;Looping through list of numbers in string line and if criteria is met line gets printed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added strings.txt test data&#10;Added solution to Main.java:&#10;Reading text file lines one by one&#10;Each line gets converted to char array &#10;Then numbers get extacted from char array&#10;Looping through list of numbers in string line and if criteria is met line gets printed" />
+    <MESSAGE value="Refactored Main to make it more readable" />
+    <MESSAGE value="Added Junit testing framework to the project&#10;Created some tests for extractNumbersFromString method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Junit testing framework to the project&#10;Created some tests for extractNumbersFromString method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
